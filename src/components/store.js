@@ -11,7 +11,7 @@ const initialState = {
   Source: { source: [] },
   News: { news: [], sourceName: "" },
   Headline: { headline: {} },
-  Fav: { fav: fav === "undefined" ? [] : JSON.parse(fav) },
+  Fav: { fav: [] },
 };
 
 const reducer = combineReducers({
